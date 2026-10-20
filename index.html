@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Source Records</title>
+    <style type="text/css">
+      /* 1. Global Reset & Box Model */
+      html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+        padding: 0;
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f4f4;
+        color: #333333;
+        line-height: 1.5;
+        padding: 20px;
+      }
+
+      /* 2. Container Card (Box Model: Width, Margin, Padding, Border) */
+      .container {
+        width: 100%;
+        max-width: 720px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        padding: 30px;
+        border: 1px solid #dddddd;
+        border-radius: 6px;
+      }
+
+      /* 3. Main Header */
+      h1 {
+        color: #111111;
+        font-size: 28px;
+        padding-bottom: 12px;
+        border-bottom: 3px solid #222222;
+        margin-bottom: 15px;
+      }
+
+      /* 4. Horizontal Navigation Bar */
+      ul.nav-bar {
+        list-style-type: none;
+        background-color: #222222;
+        padding: 10px 15px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        display: flex;
+        gap: 20px;
+      }
+
+      ul.nav-bar li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 4px 8px;
+      }
+
+      ul.nav-bar li a:hover {
+        background-color: #444444;
+        border-radius: 3px;
+      }
+
+      /* 5. Headings */
+      h2 {
+        color: #111111;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 12px;
+        padding-bottom: 6px;
+        border-bottom: 2px solid #eeeeee;
+      }
+
+      h3 {
+        color: #333333;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+      }
+
+      /* 6. Paragraphs and Links */
+      p {
+        color: #444444;
+        font-size: 14px;
+        margin-bottom: 12px;
+      }
+
+      a {
+        color: #440000;
+        font-weight: bold;
+      }
+
+      /* 7. Content Lists */
+      ul.content-list {
+        list-style-type: disc;
+        padding-left: 25px;
+        margin-bottom: 18px;
+      }
+
+      ul.content-list li {
+        margin-bottom: 6px;
+        color: #444444;
+        font-size: 14px;
+      }
+
+      /* 8. Tour Dates Cards */
+      ul.tour-list {
+        list-style-type: none;
+        margin-top: 10px;
+      }
+
+      ul.tour-list li {
+        background-color: #fafafa;
+        border: 1px solid #e5e5e5;
+        border-left: 4px solid #440000;
+        padding: 12px 16px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+      }
+
+      ul.tour-list li p {
+        margin-bottom: 4px;
+      }
+
+      ul.tour-list li p:last-child {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Open Source Records</h1>
+
+      <!-- Navigation -->
+      <ul class="nav-bar">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Bands</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <!-- Band Section -->
+      <h2>Regular Expressions</h2>
+
+      <h3>Bio</h3>
+      <p>Regular Expressionists are a hip-hop trio from New York City.</p>
+
+      <h3>Members</h3>
+      <ul class="content-list">
+        <li>Rekt - Vocals</li>
+        <li>Face-like - Vocals</li>
+        <li>DJ Regex Capture - Decks</li>
+      </ul>
+
+      <h3>Albums</h3>
+      <p>This group has no albums released, but they are recording one album right now.</p>
+
+      <!-- Tour Dates Section -->
+      <h2>Tour Dates</h2>
+      <ul class="tour-list">
+        <li>
+          <p><strong>July 16th, 2014 @ 7:00pm</strong></p>
+          <p><a href="http://hob.com" target="_blank">House of Blues</a> - Orlando, FL</p>
+        </li>
+        <li>
+          <p><strong>July 17th, 2014 @ 7:30pm</strong></p>
+          <p>Jannus Landing - Tampa, FL</p>
+        </li>
+        <li>
+          <p><strong>July 19th, 2014 @ 8:00pm</strong></p>
+          <p>The Tabernacle - Atlanta, GA</p>
+        </li>
+        <li>
+          <p><strong>July 20th, 2014 @ 7:30pm</strong></p>
+          <p>40 Watt Club - Athens, GA</p>
+        </li>
+      </ul>
+    </div>
+
+  </body>
+</html>
